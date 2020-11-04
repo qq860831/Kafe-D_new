@@ -57,6 +57,75 @@
   padding: 50px;
 }
 
+.about {
+  background-image: url(../img/bg/淺白木頭.jpg);
+}
+
+.title {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+hr {
+  border: none;
+  border-top: 3px solid #252525;
+  width: 10%;
+  margin-top: 10px;
+}
+
+.brand {
+  background-image: url(../img/服務生.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 570px;
+  height: 450px;
+  -webkit-box-shadow: 5px 5px 15px #252525;
+          box-shadow: 5px 5px 15px #252525;
+}
+
+.brand-title {
+  text-align: center;
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+
+.brand-text {
+  text-align: center;
+  line-height: 2.5;
+  font-size: 1.25rem;
+}
+
+.news {
+  background: url(../img/bg/黃木頭.png);
+}
+
+.news h3 {
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.news .card {
+  border: 0;
+  background-color: #8abfdf;
+  width: 80%;
+}
+
+.news .card-img {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.news .card-body {
+  height: 200px;
+}
+
+.news .card-text {
+  line-height: 2;
+  font-size: 1.25rem;
+}
+
 .footer {
   background-color: #3c98cc;
   color: #fff;
@@ -74,7 +143,7 @@
 }
 
 .footer .contact {
-  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 2.3;
   letter-spacing: 3px;
   font-weight: bold;
@@ -84,12 +153,12 @@
   font-size: 28px;
   opacity: 0.6;
   margin-top: 20%;
-  margin-left: 20%;
+  margin-left: 8%;
 }
 
 .footer .copy {
   opacity: 0.6;
-  font-size: 14px;
-  margin-left: 64%;
+  font-size: 0.8rem;
+  margin-left: 62%;
 }
 /*# sourceMappingURL=index.css.map */
