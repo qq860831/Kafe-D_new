@@ -1,4 +1,95 @@
-* {
+@charset "UTF-8";
+.wrap {
+  max-width: 100%;
+  margin: 0 auto;
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrap a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.jumbotron {
+  background-image: url(../img/coffee.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  border-radius: 0;
   margin: 0;
+  padding: 0;
+}
+
+.jumbotron .logo {
+  background-image: url(../img/logo_bird白.png);
+  background-size: 100% 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-indent: 101%;
+  width: 100px;
+  height: 120px;
+  cursor: pointer;
+}
+
+.jumbotron .menu-group li {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.jumbotron .menu-group li a:hover {
+  color: #8abfdf;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  padding: 5px;
+  border-bottom: 3px solid #8abfdf;
+}
+
+.jumbotron .menu {
+  margin: 0 50px;
+}
+
+.jumbotron .slogan {
+  color: #fff;
+  text-align: center;
+  line-height: 1.5;
+  padding: 50px;
+}
+
+.footer {
+  background-color: #3c98cc;
+  color: #fff;
+}
+
+.footer .footer-logo {
+  background-image: url(../img/logo_bird白.png);
+  background-size: 60%;
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-indent: 101%;
+}
+
+.footer .contact {
+  font-size: 20px;
+  line-height: 2.3;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+
+.footer .icon-group {
+  font-size: 28px;
+  opacity: 0.6;
+  margin-top: 20%;
+  margin-left: 20%;
+}
+
+.footer .copy {
+  opacity: 0.6;
+  font-size: 14px;
+  margin-left: 64%;
 }
 /*# sourceMappingURL=index.css.map */
