@@ -81,6 +81,84 @@
   text-align: center;
 }
 
+.contact-area {
+  background-image: url(../img/bg/黃木頭.png);
+}
+
+.contact-area .title {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.contact-area hr {
+  border: none;
+  border-top: 3px solid #252525;
+  width: 10%;
+  margin-top: 10px;
+}
+
+.contact-area .form {
+  max-width: 60%;
+  margin-left: 20%;
+}
+
+.contact-area .form label {
+  color: #3c98cc;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.contact-area .form input {
+  outline: none;
+  border: none;
+}
+
+.contact-area .form input:active {
+  border: 2px solid #3c98cc;
+}
+
+.contact-area .form textarea {
+  resize: none;
+  outline: none;
+  border: none;
+  outline: 0;
+}
+
+.contact-area .form textarea:active {
+  border: 2px solid #3c98cc;
+}
+
+.contact-area .form ::-webkit-input-placeholder {
+  opacity: 0.5;
+}
+
+.contact-area .form :-ms-input-placeholder {
+  opacity: 0.5;
+}
+
+.contact-area .form ::-ms-input-placeholder {
+  opacity: 0.5;
+}
+
+.contact-area .form ::placeholder {
+  opacity: 0.5;
+}
+
+.contact-area .form .btn-group {
+  margin-left: 18%;
+}
+
+.contact-area .form .btn-group .btn-primary {
+  background-color: #3c98cc;
+  border: 0;
+  border-radius: 5px;
+}
+
+.contact-area .form .btn-group .btn-primary:hover {
+  background-color: #347aa5;
+}
+
 .footer {
   background-color: #3c98cc;
   color: #fff;
