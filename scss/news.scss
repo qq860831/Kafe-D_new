@@ -104,6 +104,16 @@
       }
     }
   }
+  .pagination {
+    margin-left: 40%;
+    background-image: url(../img/bg/黃木頭.png);
+    .page-item a {
+      background-color: transparent;
+      color: #000;
+      border: 0;
+      font-size: 1.25rem;
+    }
+  }
 }
 
 //Footer
