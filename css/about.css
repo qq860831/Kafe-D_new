@@ -12,14 +12,26 @@
 }
 
 .jumbotron {
-  background-image: url(../img/coffee.jpg);
+  background-image: url(../img/1.jpg);
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;
-  height: 100vh;
+  height: 80vh;
   border-radius: 0;
   margin: 0;
   padding: 0;
+  position: relative;
+}
+
+.jumbotron::before {
+  content: "";
+  top: 0;
+  padding: 0;
+  position: absolute;
+  width: 100%;
+  height: 80vh;
+  background-color: #868686;
+  opacity: 0.3;
 }
 
 .jumbotron .logo {
@@ -55,6 +67,20 @@
   margin: 0 50px;
 }
 
+.jumbotron .banner {
+  width: 50%;
+  height: 40%;
+  border: 10px solid #fff;
+  margin-left: 25%;
+  margin-top: 5%;
+}
+
+.jumbotron .banner .text {
+  color: #fff;
+  font-size: 7rem;
+  text-align: center;
+}
+
 .door {
   background-image: url(../img/bg/黃木頭.png);
 }
@@ -86,10 +112,6 @@
   line-height: 2.5;
   margin-left: 12%;
   text-indent: 5%;
-}
-
-.door .door-text .text2 {
-  margin-top: 10px;
 }
 
 .footer {

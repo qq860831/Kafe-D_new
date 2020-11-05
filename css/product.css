@@ -12,14 +12,26 @@
 }
 
 .jumbotron {
-  background-image: url(../img/coffee.jpg);
+  background-image: url(../img/5.jpg);
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;
-  height: 100vh;
+  height: 80vh;
   border-radius: 0;
   margin: 0;
   padding: 0;
+  position: relative;
+}
+
+.jumbotron::before {
+  content: "";
+  top: 0;
+  padding: 0;
+  position: absolute;
+  width: 100%;
+  height: 80vh;
+  background-color: #868686;
+  opacity: 0.3;
 }
 
 .jumbotron .logo {
@@ -53,6 +65,53 @@
 
 .jumbotron .menu {
   margin: 0 50px;
+}
+
+.jumbotron .banner {
+  width: 50%;
+  height: 40%;
+  border: 10px solid #fff;
+  margin-left: 25%;
+  margin-top: 5%;
+}
+
+.jumbotron .banner .text {
+  color: #fff;
+  font-size: 7rem;
+  text-align: center;
+}
+
+.product {
+  background-image: url(../img/bg/黃木頭.png);
+}
+
+.product .title {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.product hr {
+  border: none;
+  border-top: 3px solid #252525;
+  width: 10%;
+  margin-top: 10px;
+}
+
+.product .pic img {
+  width: 100%;
+  height: 250px;
+}
+
+.product .pic h3 {
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: bold;
+  padding-top: 3%;
+}
+
+.product .pic h3:hover {
+  color: #3c98cc;
+  cursor: pointer;
 }
 
 .footer {

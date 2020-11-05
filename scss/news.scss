@@ -10,14 +10,25 @@
 }
 // header
 .jumbotron {
-  background-image: url(../img/coffee.jpg);
+  background-image: url(../img/2.jpg);
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;
-  height: 100vh;
+  height: 80vh;
   border-radius: 0;
   margin: 0;
   padding: 0;
+  position: relative;
+  &::before {
+    content: "";
+    top: 0;
+    padding: 0;
+    position: absolute;
+    width: 100%;
+    height: 80vh;
+    background-color: rgb(134, 134, 134);
+    opacity: 0.3;
+  }
   .logo {
     background-image: url(../img/logo_bird白.png);
     background-size: 100% 100%;
@@ -45,7 +56,20 @@
   .menu {
     margin: 0 50px;
   }
+  .banner {
+    width: 50%;
+    height: 40%;
+    border: 10px solid #fff;
+    margin-left: 25%;
+    margin-top: 5%;
+    .text {
+      color: #fff;
+      font-size: 7rem;
+      text-align: center;
+    }
+  }
 }
+
 // Info
 .info {
   background-image: url(../img/bg/黃木頭.png);
