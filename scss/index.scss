@@ -18,6 +18,7 @@
   border-radius: 0;
   margin: 0;
   padding: 0;
+  background-attachment: fixed;
   .logo {
     background-image: url(../img/logo_bird白.png);
     background-size: 100% 100%;
@@ -31,6 +32,15 @@
       display: block;
       height: 120px;
     }
+  }
+  .navFixed {
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #3c98cc;
+    min-width: 100%;
+    padding: 0 200px;
   }
   .menu-group li {
     font-size: 24px;
@@ -149,5 +159,13 @@ hr {
     opacity: 0.6;
     font-size: 0.8rem;
     margin-left: 62%;
+  }
+  .fa-chevron-circle-up {
+    position: fixed;
+    left: 95%;
+    bottom: 3%;
+    font-size: 2.5rem;
+    opacity: 0.8;
+    cursor: pointer;
   }
 }
