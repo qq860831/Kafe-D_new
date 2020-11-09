@@ -111,10 +111,16 @@ hr {
     border: 0;
     background-color: #8abfdf;
     width: 80%;
+    overflow: hidden;
   }
-  .card-img {
+  .card-img.top {
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
+    transition: 0.8s ease;
+    cursor: pointer;
+    &:hover {
+      transform: scale(1.2);
+    }
   }
   .card-body {
     height: 200px;

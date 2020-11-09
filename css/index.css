@@ -131,11 +131,20 @@ hr {
   border: 0;
   background-color: #8abfdf;
   width: 80%;
+  overflow: hidden;
 }
 
-.news .card-img {
+.news .card-img.top {
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
+  -webkit-transition: 0.8s ease;
+  transition: 0.8s ease;
+  cursor: pointer;
+}
+
+.news .card-img.top:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 .news .card-body {

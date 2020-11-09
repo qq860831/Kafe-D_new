@@ -46,8 +46,18 @@
         </div>
         <div class="container">
           <div class="slogan">
-            <h1 class="display-4 mt-5">Dresden Coffee</h1>
-            <p class="lead mt-3">
+            <h1
+              class="display-4 mt-5"
+              data-0="transform: translateY(50px)"
+              data-500="transform: translateY(250px)"
+            >
+              Dresden Coffee
+            </h1>
+            <p
+              class="lead mt-3"
+              data-0="transform: translateY(50px)"
+              data-500="transform: translateY(250px)"
+            >
               The best preparation for tomorrow is doing your best today.
             </p>
           </div>
@@ -56,15 +66,36 @@
       <!-- About -->
       <div class="about">
         <div class="container">
-          <h2 class="title pt-4">品牌精神</h2>
-          <hr />
+          <h2
+            class="title pt-4"
+            data-bottom-top="transform: translateY(-30px);opacity: 0;transition: 0s"
+            data-center="transform: translateY(0px);opacity: 1;transition: 2.5s"
+          >
+            品牌精神
+          </h2>
+          <hr
+            data-bottom-top="transform: translateX(-50px);opacity: 0;transition: 0s"
+            data-center="transform: translateX(0px);opacity: 1;transition: 1s"
+          />
           <div class="row">
             <div class="col-sm-7">
-              <div class="brand mt-3 mb-5"></div>
+              <div
+                class="brand mt-3 mb-5"
+                data-0="transform: translateX(-1200px);transition: 0s"
+                data-500="transform: translateX(0px);transition: 2s"
+              ></div>
             </div>
-            <div class="col-sm-5 py-5 mt-5">
+            <div
+              class="col-sm-5 py-5 mt-5"
+              data-bottom-top="transform: translateY(-30px);opacity: 0;transition: 0s"
+              data-center="transform: translateY(0px);opacity: 1;transition: 2s"
+            >
               <h3 class="brand-title">嚴謹的態度， 自由的靈魂</h3>
-              <p class="brand-text py-3">
+              <p
+                class="brand-text py-3"
+                data-bottom-top="transform: translateY(-10px);opacity: 0;transition: 0s"
+                data-center="transform: translateY(0px);opacity: 1;transition: 2.5s"
+              >
                 kafeD的Ｄ是指Deutschland（德國的意思），它同時
                 也是Dessert(甜點)、Dripping(咖啡滴)、Deliver(傳
                 遞)，透過D字貫穿整個品牌。以自由的鳥為咖啡館的
@@ -77,11 +108,24 @@
       <!-- News -->
       <div class="news">
         <div class="container-fluid">
-          <h2 class="title pt-4">最新消息</h2>
-          <hr />
+          <h2
+            class="title pt-4"
+            data-bottom-top="transform: translateY(-30px);opacity: 0;transition: 0s"
+            data-center="transform: translateY(0px);opacity: 1;transition: 1.5s"
+          >
+            最新消息
+          </h2>
+          <hr
+            data-bottom-top="transform: translateX(-50px);opacity: 0;transition: 0s"
+            data-center="transform: translateX(0px);opacity: 1;transition: 1.5s"
+          />
           <div class="row pt-4 ml-5 pl-3">
             <div class="col-sm-4">
-              <div class="card mb-5 pb-5">
+              <div
+                class="card mb-5 pb-5"
+                data-bottom-top="transform: translateY(30px);opacity: 0;transition: 0s"
+                data-center="transform: translateY(0px);opacity: 1;transition: 1s"
+              >
                 <img
                   src="./img/台中新光KafeD.jpg"
                   class="card-img top"
@@ -96,7 +140,11 @@
               </div>
             </div>
             <div class="col-sm-4">
-              <div class="card mb-5 pb-5">
+              <div
+                class="card mb-5 pb-5"
+                data-bottom-top="transform: translateY(30px);opacity: 0;transition: 0s"
+                data-center="transform: translateY(0px);opacity: 1;transition: 1s"
+              >
                 <img src="./img/年輪蛋糕吧.jpg" class="card-img top" alt="" />
                 <div class="card-body py-5">
                   <h3>防疫新生活</h3>
@@ -108,7 +156,11 @@
               </div>
             </div>
             <div class="col-sm-4">
-              <div class="card mb-5 pb-5">
+              <div
+                class="card mb-5 pb-5"
+                data-bottom-top="transform: translateY(30px);opacity: 0;transition: 0s"
+                data-center="transform: translateY(0px);opacity: 1;transition: 1s"
+              >
                 <img src="./img/咖啡廳內部.jpg" class="card-img top" alt="" />
                 <div class="card-body py-5">
                   <h3>振興三倍券享咖啡全面8折</h3>
@@ -163,6 +215,9 @@
       integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
       crossorigin="anonymous"
     ></script>
+    <!-- skroller CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js"></script>
+
     <script src="./js/all.js"></script>
   </body>
 </html>
